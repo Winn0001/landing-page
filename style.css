@@ -5,7 +5,7 @@
 body {
     margin: 0;
 }
-a, .logo {
+a, .logo, div, button {
     font-family: Roboto;
 }
 
@@ -30,4 +30,45 @@ a, .logo {
 .logo {
     font-weight: bold;
     font-size: 24px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 500px;
+    gap: 40px;
+    
+}
+.left {
+    width: 400px;
+}
+
+.hero-container div, .sign-up {
+    color: white;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+}
+
+.right {
+    background-color: gray;
+    text-align: center;
+    padding: 100px;
+}
+.sign-up {
+    background-color: rgb(39, 107, 255);
+    border-radius: 5px;
+    padding: 7px 25px;
+    border-style: none;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 800;
 }
