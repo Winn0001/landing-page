@@ -1,74 +1,111 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
 }
-a, .logo, div, button {
-    font-family: Roboto;
+a,
+.logo,
+div,
+button {
+  font-family: Roboto;
 }
 
 .header-container {
-    display: flex;
-    background-color: #1f2937;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 100px;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 100px;
 }
 
 .links {
-    display: flex;
-    list-style: none;
-    gap: 15px;
+  display: flex;
+  list-style: none;
+  gap: 15px;
 }
 .links a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 .logo {
-    font-weight: bold;
-    font-size: 24px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1f2937;
-    height: 500px;
-    gap: 40px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 400px;
+  gap: 40px;
 }
 .left {
-    width: 400px;
+  width: 400px;
 }
 
-.hero-container div, .sign-up {
-    color: white;
+.hero-container div,
+.sign-up {
+  color: white;
 }
 
 .hero-main-text {
-    font-size: 48px;
-    font-weight: 900;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .hero-secondary-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .right {
-    background-color: gray;
-    text-align: center;
-    padding: 100px;
+  background-color: gray;
+  text-align: center;
+  padding: 100px;
 }
 .sign-up {
-    background-color: rgb(39, 107, 255);
-    border-radius: 5px;
-    padding: 7px 25px;
-    border-style: none;
-    margin-top: 10px;
-    font-size: large;
-    font-weight: 800;
+  background-color: rgb(39, 107, 255);
+  border-radius: 5px;
+  padding: 7px 25px;
+  border-style: none;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 800;
+}
+
+.some-info-container {
+  height: 400px;
+}
+.title {
+  text-align: center;
+  padding: 40px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.box-frame-and-description {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.card {
+  width: 150px;
+
+
+}
+.desc {
+  text-align: center;
+}
+.box-frame {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: rgb(27, 164, 255);
+  color: rgb(255, 255, 255);
+  border-width: 3px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+
 }
