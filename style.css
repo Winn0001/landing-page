@@ -82,6 +82,7 @@ button {
   padding: 40px;
   font-size: 36px;
   font-weight: 900;
+  color: #1f2937;
 }
 
 .box-frame-and-description {
@@ -109,3 +110,33 @@ button {
   box-sizing: border-box;
 
 }
+
+.quote-container {
+    height: 400px;
+    background-color: #E5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.author {
+    font-weight: bold;
+    font-size: 25px;
+    align-self: self-end;
+    margin-right: 50px;
+    
+    
+}
+.quote-card {
+
+    display: flex;
+    flex-direction: column;
+}
+  
+
