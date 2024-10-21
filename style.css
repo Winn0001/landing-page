@@ -92,8 +92,6 @@ button {
 }
 .card {
   width: 150px;
-
-
 }
 .desc {
   text-align: center;
@@ -108,70 +106,70 @@ button {
   border-radius: 10px;
   margin-bottom: 10px;
   box-sizing: border-box;
-
 }
 
 .quote-container {
-    height: 400px;
-    background-color: #E5e7eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .quote {
-    width: 800px;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
+  width: 800px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
 }
 .author {
-    font-weight: bold;
-    font-size: 25px;
-    align-self: self-end;
-    margin-right: 50px;
-    
-    
+  font-weight: bold;
+  font-size: 25px;
+  align-self: self-end;
+  margin-right: 50px;
 }
 .quote-card {
-
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-  
 
 .cta-sect {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cta-card {
-   display: flex;
-   background-color: rgb(3, 142, 255);
+  display: flex;
+  background-color: rgb(3, 142, 255);
   width: 900px;
   padding: 40px 100px;
-   gap: 20px;
-   justify-content: space-between;
-   border-radius: 15px;
-    
+  gap: 20px;
+  justify-content: space-between;
+  border-radius: 15px;
 }
 .cta-main-text {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
-.cta-main-text, .cta-sub-text {
-    color: white;
+.cta-main-text,
+.cta-sub-text {
+  color: white;
 }
 .cta-signup {
-    
-    background-color: rgb(3, 142, 255);
-    color: white;
-    border-style: solid;
-    border-color: white;
-    font-size: larger;
-    font-weight: bold;
-    align-self: center;
-    padding: 5px 30px;
-    border-radius: 10px;
+  background-color: rgb(3, 142, 255);
+  color: white;
+  border-style: solid;
+  border-color: white;
+  font-size: larger;
+  font-weight: bold;
+  align-self: center;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
