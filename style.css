@@ -140,3 +140,38 @@ button {
 }
   
 
+.cta-sect {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-card {
+   display: flex;
+   background-color: rgb(3, 142, 255);
+  width: 900px;
+  padding: 40px 100px;
+   gap: 20px;
+   justify-content: space-between;
+   border-radius: 15px;
+    
+}
+.cta-main-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+.cta-main-text, .cta-sub-text {
+    color: white;
+}
+.cta-signup {
+    
+    background-color: rgb(3, 142, 255);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-size: larger;
+    font-weight: bold;
+    align-self: center;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
