@@ -5,7 +5,7 @@
 body {
     margin: 0;
 }
-a {
+a, .logo {
     font-family: Roboto;
 }
 
@@ -15,7 +15,7 @@ a {
     color: white;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 5px 100px;
 }
 
 .links {
@@ -29,6 +29,5 @@ a {
 }
 .logo {
     font-weight: bold;
-    font-size: 25px;
-    font-family: Roboto;
+    font-size: 24px;
 }
